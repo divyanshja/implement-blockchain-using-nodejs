@@ -62,9 +62,9 @@ class Blockchain{
    
 }
 
-let savjeeCoin = new Blockchain();
+let Coin = new Blockchain();
 console.log('mining block 1....');
-savjeeCoin.addBlock(new Block(1, "20/07/2017", { amount: 4 }));
+Coin.addBlock(new Block(1, "20/07/2017", { amount: 4 }));
 console.log('mining block 2....');
-savjeeCoin.addBlock(new Block(2, "20/07/2017", { amount: 8 }));
+Coin.addBlock(new Block(2, "20/07/2017", { amount: 8 }));
 
